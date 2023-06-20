@@ -13,26 +13,6 @@ public class Product {
     String review; // 후기
 
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getPrice() {
-        return price;
-    }
-
-    public void setPrice(Integer price) {
-        this.price = price;
-    }
-
-    public String getReview() {
-        return review;
-    }
-
-    public void setReview(String review) {
-        this.review = review;
-    }
-
     public Product(String name, Integer price, String review) {
         this.name = name;
         this.price = price;
