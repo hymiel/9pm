@@ -5,6 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-
+    <tr th:each="product : ${products}">
+    <td th:text="${product.id}">id</td>
+    <td th:text="${product.name}">name</td>
+    <td th:text="${product.price}">content</td>
+    <td th:text="${product.review}">content</td>
+</tr>
 </body>
 </html>

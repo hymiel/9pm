@@ -2,10 +2,12 @@ package com.ninestudy.product;
 
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class Product {
     Long id; // 번호
     String name; // 상품명
